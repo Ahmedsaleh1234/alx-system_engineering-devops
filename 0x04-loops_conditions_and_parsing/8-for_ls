@@ -4,6 +4,6 @@
 li=$(ls)
 for i in $li;
 do
-	echo "$i"
+	echo "$i" | cut -d '-' -f2
 done
 
